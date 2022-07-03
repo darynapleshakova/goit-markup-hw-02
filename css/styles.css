@@ -1,0 +1,239 @@
+:root {
+  --black-text-color: #212121;
+  --black-heade-color: #212121;
+  --white-text-color: #ffffff;
+  --gray-text-color: #757575;
+  --gray-background-color: #e5e5e5;
+  --black-background-color: #2f303a;
+  --black-logo-color: #000000;
+  --white-logo-color: #ffffff;
+  --blue-logo-color: #2196f3;
+  --blue-batton-color: #2196f3;
+  --gray-batton-color: #f5f4fa;
+  --gray-heade-color: #757575;
+  --white-heade-color: #ffffff;
+  --blue-heade-color: #ffffff;
+  --grayb-footer-color: rgba(255, 255, 255, 0.6);
+  --gray-footer-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--gray-text-color);
+  letter-spacing: 0.03em;
+}
+
+.header {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--blue-logo-color);
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--black-logo-color);
+}
+
+.logo-accent-whit {
+  color: var(--white-logo-color);
+}
+
+.nav {
+  color: var(--black-text-color);
+}
+
+.nav-link {
+  color: var(--black-text-color);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--blue-logo-color);
+}
+
+.adress {
+  font-style: inherit;
+  color: var(--grayb-footer-color);
+}
+
+.link-adress:hover,
+.link-adress:focus {
+  color: var(--blue-logo-color);
+}
+
+.contacts-footer {}
+
+.benefits {}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--black-text-color);
+  text-transform: uppercase;
+}
+
+.item-list-item {}
+
+.footer {
+  background-color: var(--black-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.hero {
+  background: var(--black-background-color);
+}
+
+.hero-batton {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  color: var(--white-text-color);
+  cursor: pointer;
+  background-color: var(--blue-batton-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.06em;
+  border: none;
+}
+
+.hero-batton:hover,
+.hero-batton:focus {
+  background-color: var(--blue-batton-color);
+  color: var(--white-text-color);
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+.about {}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.about-list {}
+
+.team {}
+
+.team-title {
+  font-weight: 500;
+}
+
+.our-team {
+  background-color: var(--gray-batton-color);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--gray-text-color);
+}
+
+.team-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--gray-text-color);
+}
+
+.text-gray {
+  color: var(--gray-text-color);
+}
+
+.text-white {
+  color: var(--white-text-color);
+}
+
+.text-black {
+  color: var(--black-text-color);
+}
+
+.tem-title-team {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--black-text-color);
+}
+
+.services {}
+
+.list-services {}
+
+.link-services {}
+
+.title-services {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--black-text-color);
+}
+
+.trait {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--gray-text-color);
+}
+
+.main-batton {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--black-text-color);
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--gray-batton-color);
+  border: none;
+}
+
+.all {
+  color: var(--white-logo-color);
+}
+
+.main-batton:hover,
+.main-batton:focus,
+.all {
+  background-color: var(--blue-batton-color);
+  color: var(--white-text-color);
+}
